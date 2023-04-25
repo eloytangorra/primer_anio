@@ -1,0 +1,271 @@
+
+   
+body{
+
+}
+header{
+    background-color: rgb(57, 17, 17);
+    padding: 30px;
+    text-align: center;
+    text-decoration-color: aliceblue;
+    color: white;
+    font-size: large;
+}
+
+
+
+.encabezado{
+    height: 30px;
+    background-color: rgb(206, 194, 194);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    
+    
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: x-large;
+
+    
+}
+li a:hover{
+    color: rgb(165, 36, 36);
+}
+.contenedor{
+    display: flex;
+    
+    
+ 
+    
+    
+}
+div.fixture{
+    color: black;
+    background-color:rgb(255, 255, 255);
+    align-items: stretch;
+    width: 40%;
+    margin: 6px;
+    border: white 3px outset;
+
+}
+.argentinahome{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin: 6px;
+    border: white 3px outset;
+
+
+}
+.entradahome{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 6px;
+    border: white 3px outset;
+}
+
+
+
+
+.piedepagina{
+    background-color:rgb(206, 194, 194);
+    display: flex;
+    font-size: x-small;
+
+}
+
+.arcontenedor{
+    display:grid;
+    grid-template-columns: 25% 50% 25% ;
+    gap: 2em;
+    
+    background-color: rgb(247, 225, 225);
+    
+
+    
+    
+    
+    
+   
+
+    
+    
+}
+
+.arconvocados {
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    
+    
+    }
+
+.arcaja1{
+   background-color: transparent;
+   grid-column: 1/2;
+   grid-row: 1/4;
+    
+    
+}
+
+.arul{
+    
+    display: table-cell;
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: x-large;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+.arul2{
+    display: table-cell;
+    list-style-type: circle;
+    margin: 5px;
+    padding: 15px;
+    
+
+}
+
+
+
+.arcaja2{
+    font-size: medium;
+    background-color: transparent;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    
+    
+    
+}
+.arnoticia2{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.artexto{
+    list-style-position: inside;
+    font-size: x-large;
+    
+}
+.notiarg{
+    box-shadow: 7px 13px 37px #000;
+}
+
+.arcaja3{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2.5/4;
+    background-color: transparent;
+
+}
+
+
+.arcaja4{
+   grid-column: 3/4;
+   grid-row: 1/4;
+   background-color: transparent;
+   
+    
+
+   
+  
+}
+.imagenmessi{
+    box-shadow: 7px 13px 37px #000;
+}
+
+table, td, tr {
+    border: 2px solid rgb(137, 26, 26);
+    text-align: center;
+}
+table{
+    width: 650px;
+    box-shadow: 7px 13px 37px #000;
+
+}
+.argoleadores{
+ 
+    text-decoration: underline;
+}
+
+.ticketcontenedor{
+    display: grid;
+    background-image: url("../imagenes/fondoentrada.png");
+    gap: 1em;
+
+
+}
+.formularioticket{
+    width: 400px;
+    background-color: #c17474;
+    padding: 30px;
+    margin: auto;
+    
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+
+
+    
+}
+.formularioticket h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.formulario{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #8c2828;
+    font-family: "calibri";
+    font-size: 18px;
+}
+.formularioticket p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.formularioticket a{
+    color: white;
+    text-decoration: none;
+}
+
+.formularioticket a:hover{
+  color: white;
+  text-decoration: underline;
+
+}
+.formularioticket .boton{
+    width: 100%;
+    background-color: #7b1c1c;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border: solid 1px white;
+
+}
+

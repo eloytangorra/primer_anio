@@ -1,0 +1,46 @@
+body{
+
+}
+.encabezado{
+    height:150px;
+    background-color: aquamarine;
+
+}
+div.contenedor{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+   
+   
+    
+    
+}
+div.caja1{
+    width: 300px;
+    height: 200px;
+    
+
+
+}
+div.caja2{
+    width: 300px;
+   height: 200px;
+}
+div.caja3{
+    width: 300px;
+    height: 200px;
+
+}
+div.pie{
+    background-color: black;
+    position: relative;
+    top: 270px;
+
+    
+    
+
+
+   
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--
+    ● El valor de cada cerveza es de $400
+● El cupón de descuento es de $200 en total si ingresa la palabra “tudai2022”
+Escribir el código para cumplir los siguientes requerimientos:
+- Se debe mostrar el listado del carrito de compras como lo indica la imagen a medida que se van
+agregando los items.
+- El campo “cantidad” de cada cerveza es obligatorio y debe ser un valor entre 1 y 10.
+- Se debe poder vaciar el carrito desde el botón “Vaciar carrito”
+- Un usuario no puede comprar más de 20 cervezas en total. En caso de excederse cuando ingresa
+un ítem nuevo el sistema le debe informar por pantalla (alert) que no puede agregarlo.
+- Solo se podrá aplicar el cupón de descuento una sola vez.
+NOTA:
+- si utiliza validaciones HTML5 agregue las propiedades al html en esta misma hoja
+AYUDA: El valor de un select se lee de la misma manera que un input
+-->
+<body>
+    <h1>Malta S.A.</h1>
+<form id="form_cerveza">
+<label for="cerveza">Cerveza</label>
+<select id="cerveza" name="cerveza">
+<option value="blondie">Blondie</option>
+<option value="ipa">IPA</option>
+<option value="porter">Porter</option>
+</select>
+<label for="cantidad">Cantidad</label>
+<input id="cantidad" name="cantidad" type="number" required>
+<button id="btn_agregar" type="submit">Agregar</button>
+</form>
+<h2>Su pedido</h2>
+<table class="lista_pedido">
+<thead>
+<tr>
+<th>Cerveza</th>
+<th>Cantidad</th>
+</tr>
+</thead>
+<tbody>
+<!-- escribir el listado del carrito -->
+</tbody>
+</table>
+<button id="btn_vaciar">Vaciar carrito</button>
+<form id="form_cupon">
+<label for="cupon">Cupón de descuento</label>
+<input id="cupon" name="cupon" type="text">
+<button id="btn_aplicar" type="submit">APLICAR</button>
+</form>
+<h3>TOTAL: $ <span id="precio_total"> </span></h3>
+</body>
+<script type="text/javascript" src="recu.js"></script>
+</html>

@@ -1,0 +1,25 @@
+body{
+
+}
+h1, h2,h3,p{
+    background-color: blue;
+}
+h1{
+    background-color: red;
+}
+div ul li a{
+    background-color: black;
+    color: white;
+}
+div ul li a :hover{
+    background-color: blue;
+}
+nav ul li a {
+    background-color: yellow;
+    color: black;
+}
+.footer{
+   background-color: white;
+    color: orange;
+    text-align: center;
+}

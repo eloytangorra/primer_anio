@@ -1,0 +1,359 @@
+ body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(228, 195, 195);
+ }
+/* solo para pantallas inferiores a 480px */
+@media only screen and (max-width: 480px){  
+.contenedormobil{
+    display: grid;
+    grid-template-areas: 
+        "headermobil"
+        "encabezado"
+        "contenedor"
+        "piedepagina";
+} 
+.header {
+  
+    background-image:url(../imagenes/qatar2022.jpg);
+    background-size: cover;
+    padding: 30px;
+    text-align:center;
+    text-decoration-color:aliceblue;
+    color:white;
+    font-size:xx-large;
+
+}
+.contenedor {
+ grid-area: contenedor;
+}
+.piedepagina {
+ grid-area: piedepagina;
+ display: flex;
+ background-color: rgb(206, 194, 194);
+}
+.encabezado{
+    
+    width: 100%;
+    display: flex;
+    background-color: rgb(133, 21, 21);
+}
+  .encabezado ul{
+     display: none;
+  }
+
+  .btn_menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+}
+.btn_menu a:hover {
+    color: rgb(250, 155, 155);
+}
+.btn_menu {
+    color: white;
+    padding: 15px;
+}
+ul.navegador.show {
+    display: flex;
+}
+ul.navegador {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    flex-direction: column;
+}
+ul.navegador li {
+    list-style: none;
+    margin: 0px 0px;
+    padding: 15px 20px;
+}
+
+ul.navegador li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:x-large;
+}
+
+ul.navegador li:hover {
+    background-color: rgb(255, 255, 255);
+}
+a{
+    color: black;
+}
+.TituloFormulario {
+    text-decoration: underline;
+    
+    }
+     .formularioticket{
+        width:300px;
+        background-color:#c17474;
+        padding:30px;
+        margin:auto;
+        border-radius:4px;
+        color:white;
+        box-shadow:7px 13px 37px #000;
+        grid-column:1/3;
+        grid-row:1/3;
+        margin-top:30px;
+        margin-bottom:30px;}
+    
+     .formularioticket h2{
+        font-size:22px;
+        margin-bottom:20px;}
+    
+     .formulario{width:100%;
+        background-color:#ffffff;
+        padding:10px;
+        border-radius:4px;
+        margin-bottom:16px;
+        border:1px solid #8c2828;
+        font-size:18px;}
+    
+        
+     .formularioticket p {height:40px;
+        text-align:center;
+        font-size:18px;
+        line-height:40px;}
+    
+     .formularioticket a{color:purple;
+        text-decoration:underline;}
+    
+     .formularioticket a:hover{color:white;
+        text-decoration:underline;}
+    
+     .formularioticket #btn{width:100%;
+        background-color:#7b1c1c;
+        border:none;
+        padding:12px;
+        color:white;
+        margin:16px 0;
+        font-size:16px;
+        border:solid 1px white;}
+        
+}
+
+ /* solo para pantallas superiores a 660px */
+ @media only screen and (min-width: 480px){
+ header{
+     background-image:url(../imagenes/qatar2022.jpg);
+     background-size: cover;
+     width: 100%;
+     padding: 50px;
+     text-align:center;
+     text-decoration-color:aliceblue;
+     color:white;
+     font-size:xx-large;}
+
+ .encabezado{
+    height:30px;
+    background-color:rgb(206,194,194);}
+
+ ul.navegador {
+     display:flex;
+     flex-direction:row;
+     list-style:none;
+     margin:0px;
+     padding: 1px;}
+
+     ul.navegador.show {
+        display: flex;
+    }
+.arul li::before{
+        content: "• ";
+        color:rgb(133, 21, 21)
+
+     }
+
+ li a{
+     text-decoration:none;
+     padding:20px;
+     color:black;
+     font-size:x-large;}
+
+ li a:hover{
+     color:rgb(165,36,36);}
+
+ .contenedor {
+     display:flex;
+     
+     }
+
+
+ div.fixture{
+     color:black;
+     background-color: rgb(228, 195, 195);
+    align-items:stretch;
+    width:40%;
+    margin:6px;
+    border-bottom:rgba(58, 50, 50, 0.178) 3px solid;
+    }
+
+ .argentinahome{color:black;
+    background-color: rgb(228, 195, 195);
+    width:30%;
+    margin:6px;
+    border-bottom:rgba(58, 50, 50, 0.178) 3px solid;
+    }
+
+ .entradahome{
+     width:30%;
+     background-color: rgb(228, 195, 195);
+     color:black;
+     margin:6px;
+     border-bottom:rgba(58, 50, 50, 0.178) 3px solid;
+     }
+
+ .piedepagina{
+     background-color:rgb(206,194,194);
+     display:flex;
+     font-size:x-small;}
+
+ .arcontenedor{
+    display:grid;
+    grid-template-columns:25% 50% 25%;
+    gap:2em;
+    background-color:rgb(247,225,225);}
+
+ .arconvocados{
+     text-align:left;
+     text-decoration:underline;
+     font-size:xx-large;}
+
+ .arcaja1{
+     background-color:transparent;
+     grid-column:1/2;
+     grid-row:1/4;}
+
+ .arul{
+     display:table-cell;
+     list-style-position:inside;
+     font-size:x-large;
+     margin:15px;
+     padding:15px;
+     box-shadow:7px 13px 37px #000;}
+
+     a{
+         color: black;
+     }
+
+ .arul2{
+    display:table-cell;
+    list-style-type:circle;
+    margin:5px;
+    padding:15px;}
+
+ .arcaja2{
+     font-size:medium;
+    background-color:transparent;
+    grid-column:2/3;
+    grid-row:1/3;}
+
+ .arnoticia2{
+     text-align:center;
+     text-decoration:underline;
+  
+    }
+
+ .artexto {
+    list-style-position:inside;
+    font-size:large;}
+
+ .notiarg{
+     box-shadow:7px 13px 37px #000;}
+
+ .arcaja3{
+     text-align:center;
+    grid-column:2/3;
+    grid-row:2.5/4;
+    background-color:transparent;}
+
+ .arcaja4{
+    grid-column:3/4;
+    grid-row:1/4;
+    background-color:transparent;
+}
+
+.alentar{
+    text-align: center;
+    text-decoration: underline;
+}
+ .imagenmessi{
+     box-shadow:7px 13px 37px #000;}
+
+ table,td,tr{
+     border:2px solid rgb(137,26,26);
+     text-align:center;
+    padding: 10px;
+    }
+
+ table{
+     width:650px;
+     box-shadow:7px 13px 37px #000;
+    
+    }
+
+ .argoleadores{
+     text-decoration:underline;}
+
+ .ticketcontenedor{
+    display:grid;
+    background-image:url("../imagenes/fondoentrada.png");
+    gap:1em;
+}
+
+.TituloFormulario {
+text-decoration: underline;
+
+}
+ .formularioticket{
+    width:400px;
+    background-color:#c17474;
+    padding:30px;
+    margin:auto;
+    border-radius:4px;
+    color:white;
+    box-shadow:7px 13px 37px #000;
+    grid-column:1/3;
+    grid-row:1/3;
+    margin-top:30px;
+    margin-bottom:30px;}
+
+ .formularioticket h2{
+    font-size:22px;
+    margin-bottom:20px;}
+
+ .formulario{width:100%;
+    background-color:#ffffff;
+    padding:10px;
+    border-radius:4px;
+    margin-bottom:16px;
+    border:1px solid #8c2828;
+    font-size:18px;}
+
+    
+ .formularioticket p {height:40px;
+    text-align:center;
+    font-size:18px;
+    line-height:40px;}
+
+ .formularioticket a{color:purple;
+    text-decoration:underline;}
+
+ .formularioticket a:hover{color:white;
+    text-decoration:underline;}
+
+ .formularioticket #btn{width:100%;
+    background-color:#7b1c1c;
+    border:none;
+    padding:12px;
+    color:white;
+    margin:16px 0;
+    font-size:16px;
+    border:solid 1px white;}
+    .btn_menu {
+        display: none;
+     }
+    
+
+}

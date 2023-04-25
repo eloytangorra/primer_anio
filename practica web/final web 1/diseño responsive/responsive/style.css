@@ -1,0 +1,35 @@
+body{
+
+}
+.contendor{
+    display: flex;
+    flex-direction: column;
+}
+.seis{
+    display: none;
+}
+.tres{
+    display: none;
+}
+.dos{
+    display: flex;
+}
+@media only screen and (min-width: 720px) {
+.dos{
+    display: none;
+}
+.tres{
+    display: flex;
+}
+.medio{
+    display: flex;
+    flex-direction: row;
+}
+.fondo{
+    display: flex;
+    flex-direction: row;
+}
+.seis{
+    display: flex;
+}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--
+    Escribir el código de Javascript para cumplir los siguientes requerimientos:
+- Se deben ir registrando los usuarios que se van inscribiendo a través del formulario, con el
+requerimiento que los usuarios deben ser mayores de 18 años y no pueden inscribirse más de una
+vez.
+- Luego que se oprime el botón Sortear se debe mostrar un listado con los nombres y dni de cada
+uno de los participantes registrados en el sorteo.
+6
+- Al oprimir Sortear, el ganador debe ser evaluado al azar entre el total de las personas registradas y
+deben mostrarse los datos del ganador en la página (nombre, edad y dni).
+- El aviso del ganador debe aparecer con letra verde acompañado del texto “PowEnergy - Beber con
+moderación”. En el caso que el ganador sea menor de 21 años se debe mostrar el aviso del
+ganador con letra de color rojo e indicando además un texto que anuncie “Para retirar el premio el
+gandor debe ir acompañado de un mayor de 21 años”.
+-->
+<body>
+    <h1>PowEnergy Drink</h1>
+<form id="form_registro">
+<label for="nombre">Nombre y Apellido</label>
+<input id="nombre" name="nombre" type="text">
+<label for="dni">DNI</label>
+<input id="dni" name="dni" type="number">
+<label for="edad">Edad</label>
+<input id="edad" name="edad" type="number">
+<button id="btn_registrar" type="submit">Registrarse</button>
+</form>
+<button id="btn_sortear">Sortear</button>
+<h2>Participantes del sorteo</h2>
+<ol id="lista_sorteo">
+<!-- escribir el listado de Nombres y dni de los participantes -->
+</ol>
+<div id="aviso_ganador">
+<!-- mensaje y aviso del ganador -->
+</div>
+<script type="text/javascript" src="prefinal.js"></script>
+</body>
+</html>

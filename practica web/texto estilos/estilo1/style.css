@@ -1,0 +1,12 @@
+p{
+   color: blue;
+}
+p.destacado{
+    color: green;
+}
+div span p{
+    color: red;
+}
+div p div {
+    color: orange;
+}

@@ -1,0 +1,16 @@
+p {
+    color: black;
+ }
+  
+ p .resaltado {
+    color: red;
+ }
+  
+ .resaltado {
+    color: green;
+ }
+  
+ p.suave {
+    color: gray;
+ }
+ 
